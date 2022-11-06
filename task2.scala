@@ -1,7 +1,7 @@
 import java.util.concurrent.atomic.AtomicInteger
-import scala.concurrent.duration._
-import scala.concurrent.Await
+import java.util.concurrent.await
 
+// Task 2a
 def FunToThread(f: () => Unit) = new Thread(() => f())
 
 def PrintTest(): Unit = {
@@ -9,6 +9,11 @@ def PrintTest(): Unit = {
   test.start()
 }
 
+
+PrintTest()
+  
+
+// Task 2b
 private var counter: Int = 0
 def increaseCounter(): Unit = {
 counter += 1
@@ -16,21 +21,6 @@ counter += 1
 
 def printCounter(): Unit = {
   println(counter)
-}
-
-
-// This phenomenon is called the race condition, and occurs when two or more threads acess a shared variable,
-// where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
-// two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
-// at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity".
-
-val atomicCounter = new AtomicInteger(0)
-def increaseCounterSafe(): Unit = this.synchronized {
-atomicCounter.incrementAndGet()
-}
-
-def printCounterSafe(): Unit = this.synchronized {
-  println(atomicCounter)
 }
 
 val thread1 = FunToThread(increaseCounter)
@@ -43,6 +33,24 @@ def tester(): Unit = {
   thread3.start()
 }
 
+tester()
+
+// This phenomenon is called race condition, and occurs when two or more threads acess a shared variable,
+// where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
+// two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
+// at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity".
+
+
+// Task 2c
+val atomicCounter = new AtomicInteger(0)
+def increaseCounterSafe(): Unit = this.synchronized {
+atomicCounter.incrementAndGet()
+}
+
+def printCounterSafe(): Unit = this.synchronized {
+  println(atomicCounter)
+}
+
 val threadS1 = FunToThread(increaseCounterSafe)
 val threadS2 = FunToThread(increaseCounterSafe)
 val threadS3 = FunToThread(printCounterSafe)
@@ -53,11 +61,8 @@ def testerSafe(): Unit = {
   threadS3.start()
 }
 
-PrintTest()
-
-tester()
-
 testerSafe()
+
 
 // Task2d
 // A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for each other (or itself).
