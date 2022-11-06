@@ -59,5 +59,5 @@ tester()
 
 testerSafe()
 
-// A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for eachother. 
+// A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for eachother (or itself). 
 // This results in none of them taking any action and thus creating a deadlock.
