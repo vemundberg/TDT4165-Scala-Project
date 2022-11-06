@@ -18,6 +18,12 @@ def printCounter(): Unit = {
   println(counter)
 }
 
+
+// This phenomenon is called the race condition, and occurs when two or more threads acess a shared variable,
+// where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
+// two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
+// at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity". 
+
 val atomicCounter = new AtomicInteger(0)
 def increaseCounterSafe(): Unit = this.synchronized {
 atomicCounter.incrementAndGet()
