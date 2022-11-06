@@ -2,6 +2,7 @@ import java.util.concurrent.atomic.AtomicInteger
 import scala.concurrent.duration._
 import scala.concurrent.Await
 
+// Task 2a
 def FunToThread(f: () => Unit) = new Thread(() => f())
 
 def PrintTest(): Unit = {
@@ -9,6 +10,7 @@ def PrintTest(): Unit = {
   test.start()
 }
   
+// Task 2b
 private var counter: Int = 0
 def increaseCounter(): Unit = {
 counter += 1
@@ -24,6 +26,7 @@ def printCounter(): Unit = {
 // two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
 // at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity". 
 
+// Task 2c
 val atomicCounter = new AtomicInteger(0)
 def increaseCounterSafe(): Unit = this.synchronized {
 atomicCounter.incrementAndGet()
@@ -59,5 +62,6 @@ tester()
 
 testerSafe()
 
+// Task 2d
 // A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for eachother (or itself). 
 // This results in none of them taking any action and thus creating a deadlock.
