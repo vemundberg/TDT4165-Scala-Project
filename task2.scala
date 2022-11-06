@@ -9,7 +9,10 @@ def PrintTest(): Unit = {
   val test = FunToThread(() => println("Dette er en kul test"))
   test.start()
 }
+
+PrintTest()
   
+
 // Task 2b
 private var counter: Int = 0
 def increaseCounter(): Unit = {
@@ -29,6 +32,8 @@ def tester(): Unit = {
   thread2.start()
   thread3.start()
 }
+
+tester()
 
 
 // This phenomenon is called race condition, and occurs when two or more threads acess a shared variable,
@@ -55,10 +60,6 @@ def testerSafe(): Unit = {
   threadS2.start()
   threadS3.start()
 }
-
-PrintTest()
-
-tester()
 
 testerSafe()
 
