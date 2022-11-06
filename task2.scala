@@ -58,3 +58,6 @@ PrintTest()
 tester()
 
 testerSafe()
+
+// A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for eachother. 
+// This results in none of them taking any action and thus creating a deadlock.
