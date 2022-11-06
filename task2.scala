@@ -9,6 +9,7 @@ def PrintTest(): Unit = {
   test.start()
 }
 
+
 PrintTest()
   
 
@@ -37,7 +38,7 @@ tester()
 // This phenomenon is called race condition, and occurs when two or more threads acess a shared variable,
 // where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
 // two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
-// at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity". 
+// at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity".
 
 
 // Task 2c
@@ -62,6 +63,30 @@ def testerSafe(): Unit = {
 
 testerSafe()
 
-// Task 2d
-// A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for eachother (or itself). 
+
+// Task2d
+// A deadlock in concurrency occurs when multiple values are being accessed, but a collision occurs, making all of them wait for each other (or itself).
 // This results in none of them taking any action and thus creating a deadlock.
+
+object deadLObj {
+  lazy val initialState = 42
+  lazy val start = deadLObjTwo.initialState
+}
+
+object deadLObjTwo {
+  lazy val initialState = deadLObj.initialState
+}
+
+def CheckDeadlock: Unit = {
+    val result = Future.sequence(Seq(
+      Future {
+        deadLObj.start
+      },
+      Future {
+        deadLObjTwo.initialState
+      }
+    ))
+    Await.result(result, 5.second)
+  }
+
+  CheckDeadlock
