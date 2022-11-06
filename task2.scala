@@ -20,6 +20,16 @@ def printCounter(): Unit = {
   println(counter)
 }
 
+val thread1 = FunToThread(increaseCounter)
+val thread2 = FunToThread(increaseCounter)
+val thread3 = FunToThread(printCounter)
+
+def tester(): Unit = {
+  thread1.start()
+  thread2.start()
+  thread3.start()
+}
+
 
 // This phenomenon is called the race condition, and occurs when two or more threads acess a shared variable,
 // where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
@@ -34,16 +44,6 @@ atomicCounter.incrementAndGet()
 
 def printCounterSafe(): Unit = this.synchronized {
   println(atomicCounter)
-}
-
-val thread1 = FunToThread(increaseCounter)
-val thread2 = FunToThread(increaseCounter)
-val thread3 = FunToThread(printCounter)
-
-def tester(): Unit = {
-  thread1.start()
-  thread2.start()
-  thread3.start()
 }
 
 val threadS1 = FunToThread(increaseCounterSafe)
