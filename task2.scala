@@ -1,4 +1,5 @@
 import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.await
 
 // Task 2a
 def FunToThread(f: () => Unit) = new Thread(() => f())
@@ -33,11 +34,11 @@ def tester(): Unit = {
 
 tester()
 
-
 // This phenomenon is called race condition, and occurs when two or more threads acess a shared variable,
 // where the output of the program is dependent on the timing at which the separate threads got executed. We have illustrated a situation where
 // two threads are changing the state of a shared variable, and one reads it, but threre is no sync between them, meaning they execute there statements
 // at a non sequential manner, and the output is not reliable. So any situation where we read and write a shared variable, we need "atomocity". 
+
 
 // Task 2c
 val atomicCounter = new AtomicInteger(0)
