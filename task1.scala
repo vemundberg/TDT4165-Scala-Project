@@ -5,15 +5,15 @@ object Task1 extends App {
 	val Array = for (i <- 0 until 50) yield i
 	println(Array)
 	
-  // Task 1b
+  	// Task 1b
 	val Arr = List(5, 10, 15, 20, 25, 30, 35, 40, 45, 50);
 	var Sum = 0
 	for (i <- Arr) { 
-    Sum += i
-  }
+    		Sum += i
+  	}
 	println(Sum)
 
-  // Task 1c
+  	// Task 1c
 	def sum(x: List[Int]): Int = {
 		if(x.isEmpty)
 			return 0
@@ -22,7 +22,7 @@ object Task1 extends App {
 	}
 	println(sum(Arr))
 
-  // Task 1d
+  	// Task 1d
 	def fibonacci(nth: Int): BigInt = {	// F_n = F_(n-1) + F_(n-2)
 		def fibRec(n: Int, F_1: BigInt, F_2: BigInt): BigInt = n match {
 			case 0 => F_1
