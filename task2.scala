@@ -3,6 +3,7 @@ import scala.concurrent.{ Future, ExecutionContext }
 import concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.*
 import scala.concurrent.duration.*
+import java.io.*
 
 // Task 2a
 def FunToThread(f: () => Unit) = new Thread(() => f())
@@ -14,7 +15,7 @@ def PrintTest(): Unit = {
 
 
 PrintTest()
-  
+
 
 // Task 2b
 private var counter: Int = 0
@@ -32,8 +33,11 @@ val thread3 = FunToThread(printCounter)
 
 def tester(): Unit = {
   thread1.start()
+  thread1.join(1)
   thread2.start()
+  thread2.join(1)
   thread3.start()
+  thread3.join(1)
 }
 
 tester()
@@ -60,8 +64,11 @@ val threadS3 = FunToThread(printCounterSafe)
 
 def testerSafe(): Unit = {
   threadS1.start()
+  threadS1.join(1)
   threadS2.start()
+  threadS2.join(1)
   threadS3.start()
+  threadS3.join(1)
 }
 
 testerSafe()
@@ -72,7 +79,7 @@ testerSafe()
 // This results in none of them taking any action and thus creating a deadlock.
 
 object deadLObj {
-  lazy val initialState = 42
+  lazy val initialState = 1
   lazy val start = deadLObjTwo.initialState
 }
 
