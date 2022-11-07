@@ -1,6 +1,8 @@
 import java.util.concurrent.atomic.AtomicInteger
-import java.util.concurrent.Await
 import scala.concurrent.{ Future, ExecutionContext }
+import concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.*
+import scala.concurrent.duration.*
 
 // Task 2a
 def FunToThread(f: () => Unit) = new Thread(() => f())
