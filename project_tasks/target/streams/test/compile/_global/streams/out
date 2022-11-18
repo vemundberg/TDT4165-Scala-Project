@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\test\scala\AccountTests.scala:12:19: value isLeft is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\test\scala\AccountTests.scala:19:19: value isRight is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isRight)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\test\scala\AccountTests.scala:26:19: value isRight is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isRight)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\test\scala\AccountTests.scala:33:19: value isLeft is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\test\scala\AccountTests.scala:40:19: value isRight is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.isRight)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

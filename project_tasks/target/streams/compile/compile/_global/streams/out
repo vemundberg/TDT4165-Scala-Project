@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala:18:30: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        queue synchronized() { [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala:25:30: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        queue synchronized() { [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala:32:29: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        queue synchronized(){[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala:39:29: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        queue synchronized(){[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala:46:29: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        queue synchronized(){[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

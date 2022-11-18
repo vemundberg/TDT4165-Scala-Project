@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vemun\TDT4165-Scala-Project\project_tasks\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vemun\TDT4165-Scala-Project\project_tasks\target\scala-2.12\classes.bak[0m

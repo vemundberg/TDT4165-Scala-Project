@@ -1,0 +1,159 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "project_tasks",
+        "directory": "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks",
+        "workspaceDir": "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks",
+        "sources": [
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\src\\main\\scala",
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\src\\main\\scala-2.12",
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\src\\main\\scala-2",
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\src\\main\\java",
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-library.jar"
+        ],
+        "out": "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\.bloop\\project_tasks",
+        "classesDir": "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\.bloop\\project_tasks\\scala-2.12\\classes",
+        "resources": [
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\src\\main\\resources",
+            "C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.17",
+            "options": [
+                "-unchecked",
+                "-deprecation",
+                "-feature",
+                "-language:postfixOps"
+            ],
+            "jars": [
+                "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-library.jar",
+                "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-compiler.jar",
+                "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-reflect.jar",
+                "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\vemun\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\AdoptOpenJDK\\openjdk8-binaries\\releases\\download\\jdk8u292-b10\\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\\jdk8u292-b10\\jre",
+                "options": [
+                    "-Duser.dir=C:\\Users\\vemun\\TDT4165-Scala-Project\\project_tasks"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\vemun\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.17\\scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\vemun\\.sbt\\boot\\scala-2.12.17\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\vemun\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.17\\scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

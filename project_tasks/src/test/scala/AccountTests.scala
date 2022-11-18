@@ -14,7 +14,7 @@ class AccountTests extends FunSuite {
 
   test("Test 02: Invalid account withdrawal should throw exception") {
     val acc    = new Account(bank, 500)
-	val result = acc.withdraw(750)
+	  val result = acc.withdraw(750)
     assert(acc.getBalanceAmount == 500)
     assert(result.isRight)
   }

@@ -1,0 +1,609 @@
+2022.11.18 18:05:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\lsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.18 18:05:58 INFO  logging to file C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\metals.log
+2022.11.18 18:05:58 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\vemun\TDT4165-Scala-Project\project_tasks' for client Visual Studio Code 1.73.1.
+2022.11.18 18:06:00 INFO  time: initialize in 1.91s
+2022.11.18 18:06:00 WARN  Build server is not auto-connectable.
+2022.11.18 18:06:03 INFO  running 'C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vemun\AppData\Local\Temp\metals6149530991851636768\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.18 18:06:06 INFO  [info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+2022.11.18 18:06:09 INFO  [info] loading settings for project project_tasks-build-build from metals.sbt ...
+2022.11.18 18:06:09 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\project
+2022.11.18 18:06:13 INFO  [info] loading settings for project project_tasks-build from metals.sbt ...
+2022.11.18 18:06:13 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project
+2022.11.18 18:06:19 INFO  [success] Generated .bloop\project_tasks-build.json
+2022.11.18 18:06:19 INFO  [success] Total time: 5 s, completed Nov 18, 2022 6:06:19 PM
+2022.11.18 18:06:20 INFO  [info] loading settings for project project_tasks from build.sbt ...
+2022.11.18 18:06:20 INFO  [info] set current project to project_tasks (in build file:/C:/Users/vemun/TDT4165-Scala-Project/project_tasks/)
+2022.11.18 18:06:20 INFO  [success] Generated .bloop\project_tasks-test.json
+2022.11.18 18:06:20 INFO  [success] Generated .bloop\project_tasks.json
+2022.11.18 18:06:20 INFO  [success] Total time: 1 s, completed Nov 18, 2022 6:06:21 PM
+2022.11.18 18:06:21 INFO  time: ran 'sbt bloopInstall' in 17s
+2022.11.18 18:06:21 INFO  Attempting to connect to the build server...
+2022.11.18 18:06:21 INFO  Setting up current java home C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 in C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:06:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:06:35 INFO  Attempting to connect to the build server...
+2022.11.18 18:06:35 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:06:35 INFO  time: Connected to build server in 13s
+2022.11.18 18:06:35 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:06:35 INFO  time: Imported build in 0.18s
+2022.11.18 18:06:42 INFO  time: indexed workspace in 6.58s
+2022.11.18 18:06:43 INFO  compiling project_tasks (6 scala sources)
+2022.11.18 18:07:04 INFO  time: compiled project_tasks in 21s
+2022.11.18 18:07:12 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:07:13 INFO  time: compiled project_tasks-test in 1.18s
+2022.11.18 18:08:07 INFO  Disconnecting from Bloop session...
+2022.11.18 18:08:07 INFO  Shut down connection with build server.
+2022.11.18 18:08:07 INFO  Shut down connection with build server.
+2022.11.18 18:08:07 INFO  Attempting to connect to the build server...
+2022.11.18 18:08:07 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:08:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:08:07 INFO  Attempting to connect to the build server...
+2022.11.18 18:08:07 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:08:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:08:07 INFO  time: Connected to build server in 0.12s
+2022.11.18 18:08:07 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:08:07 INFO  time: Imported build in 0.11s
+2022.11.18 18:08:08 INFO  time: indexed workspace in 1.15s
+2022.11.18 18:08:09 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:08:11 INFO  time: compiled project_tasks-test in 1.98s
+2022.11.18 18:08:11 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:08:12 INFO  time: compiled project_tasks-test in 0.73s
+2022.11.18 18:08:29 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:08:29 INFO  time: compiled project_tasks-test in 0.46s
+2022.11.18 18:08:32 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:08:32 INFO  time: compiled project_tasks-test in 0.52s
+2022.11.18 18:09:32 INFO  running 'C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vemun\AppData\Local\Temp\metals1269900111887778140\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.18 18:09:34 INFO  [info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+2022.11.18 18:09:34 INFO  [info] loading settings for project project_tasks-build-build from metals.sbt ...
+2022.11.18 18:09:36 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\project
+2022.11.18 18:09:37 INFO  [info] loading settings for project project_tasks-build from metals.sbt ...
+2022.11.18 18:09:37 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project
+2022.11.18 18:09:40 INFO  [success] Generated .bloop\project_tasks-build.json
+2022.11.18 18:09:40 INFO  [success] Total time: 3 s, completed Nov 18, 2022 6:09:40 PM
+2022.11.18 18:09:40 INFO  [info] loading settings for project project_tasks from build.sbt ...
+2022.11.18 18:09:40 INFO  [info] set current project to project_tasks (in build file:/C:/Users/vemun/TDT4165-Scala-Project/project_tasks/)
+2022.11.18 18:09:41 INFO  [success] Generated .bloop\project_tasks.json
+2022.11.18 18:09:41 INFO  [success] Generated .bloop\project_tasks-test.json
+2022.11.18 18:09:41 INFO  [success] Total time: 0 s, completed Nov 18, 2022 6:09:41 PM
+2022.11.18 18:09:41 INFO  time: ran 'sbt bloopInstall' in 9.48s
+2022.11.18 18:09:41 INFO  Disconnecting from Bloop session...
+2022.11.18 18:09:42 INFO  Shut down connection with build server.
+2022.11.18 18:09:42 INFO  Shut down connection with build server.
+2022.11.18 18:09:41 INFO  Attempting to connect to the build server...
+2022.11.18 18:09:41 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:09:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:09:42 INFO  Attempting to connect to the build server...
+2022.11.18 18:09:42 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:09:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:09:42 INFO  time: Connected to build server in 94ms
+2022.11.18 18:09:42 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:09:43 INFO  time: indexed workspace in 0.9s
+2022.11.18 18:09:43 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:09:44 INFO  time: compiled project_tasks-test in 1.01s
+2022.11.18 18:09:45 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:09:45 INFO  time: compiled project_tasks-test in 0.39s
+Nov 18, 2022 6:10:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 18, 2022 6:10:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.18 18:11:44 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:11:44 INFO  time: compiled project_tasks-test in 0.71s
+2022.11.18 18:12:07 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:12:07 INFO  time: compiled project_tasks-test in 0.83s
+Nov 18, 2022 6:12:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 18, 2022 6:12:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+2022.11.18 18:12:19 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:12:19 INFO  time: compiled project_tasks-test in 0.69s
+Nov 18, 2022 6:12:19 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 18, 2022 6:12:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 170
+2022.11.18 18:12:28 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:12:28 INFO  time: compiled project_tasks-test in 0.28s
+2022.11.18 18:15:43 INFO  Disconnecting from Bloop session...
+2022.11.18 18:15:43 INFO  Shut down connection with build server.
+2022.11.18 18:15:43 INFO  Shut down connection with build server.
+2022.11.18 18:15:43 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:43 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:43 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:43 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:43 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:43 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:49 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:49 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:49 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:49 INFO  Attempting to connect to the build server...
+2022.11.18 18:15:49 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:15:49 INFO  time: Connected to build server in 5.36s
+2022.11.18 18:15:49 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:15:49 INFO  time: Connected to build server in 6.24s
+2022.11.18 18:15:49 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:15:49 INFO  time: Connected to build server in 5.51s
+2022.11.18 18:15:49 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:15:49 INFO  time: Imported build in 0.26s
+2022.11.18 18:15:49 INFO  time: Imported build in 0.4s
+2022.11.18 18:15:49 INFO  time: Imported build in 0.47s
+2022.11.18 18:15:51 INFO  time: indexed workspace in 1.7s
+2022.11.18 18:15:51 INFO  time: indexed workspace in 1.64s
+2022.11.18 18:15:51 INFO  time: indexed workspace in 1.7s
+error: C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\.tmp\.metals\.tmp\Main5856294932842035424.scala is not a file
+2022.11.18 18:15:52 INFO  compiling project_tasks (6 scala sources)
+2022.11.18 18:15:58 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:15:58 INFO  time: compiled project_tasks in 5.59s
+2022.11.18 18:15:58 INFO  time: compiled project_tasks-test in 0.99s
+2022.11.18 18:16:01 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:16:01 INFO  time: compiled project_tasks-test in 0.58s
+2022.11.18 18:16:23 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:16:23 INFO  time: compiled project_tasks-test in 0.92s
+2022.11.18 18:16:53 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:16:53 INFO  time: compiled project_tasks-test in 0.77s
+Nov 18, 2022 6:16:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.18 18:18:30 INFO  compiling project_tasks-test (1 scala source)
+Nov 18, 2022 6:18:30 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.18 18:18:30 INFO  time: compiled project_tasks-test in 0.79s
+Exception in thread "pool-12-thread-1" java.lang.Error: scala.tools.nsc.interactive.ShutdownReq$
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.tools.nsc.interactive.ShutdownReq$
+Nov 18, 2022 6:18:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.18 18:23:14 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:23:14 INFO  time: compiled project_tasks-test in 0.43s
+2022.11.18 18:24:00 INFO  running 'C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vemun\AppData\Local\Temp\metals1149244425603573609\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.18 18:24:02 INFO  [info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+2022.11.18 18:24:02 INFO  [info] loading settings for project project_tasks-build-build from metals.sbt ...
+2022.11.18 18:24:04 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\project
+2022.11.18 18:24:05 INFO  [info] loading settings for project project_tasks-build from metals.sbt ...
+2022.11.18 18:24:05 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project
+2022.11.18 18:24:08 INFO  [success] Generated .bloop\project_tasks-build.json
+2022.11.18 18:24:08 INFO  [success] Total time: 3 s, completed Nov 18, 2022 6:24:08 PM
+2022.11.18 18:24:08 INFO  [info] loading settings for project project_tasks from build.sbt ...
+2022.11.18 18:24:08 INFO  [info] set current project to project_tasks (in build file:/C:/Users/vemun/TDT4165-Scala-Project/project_tasks/)
+2022.11.18 18:24:09 INFO  [success] Generated .bloop\project_tasks-test.json
+2022.11.18 18:24:09 INFO  [success] Generated .bloop\project_tasks.json
+2022.11.18 18:24:09 INFO  [success] Total time: 0 s, completed Nov 18, 2022 6:24:09 PM
+2022.11.18 18:24:09 INFO  time: ran 'sbt bloopInstall' in 9.64s
+2022.11.18 18:24:09 INFO  Disconnecting from Bloop session...
+2022.11.18 18:24:09 INFO  Shut down connection with build server.
+2022.11.18 18:24:09 INFO  Shut down connection with build server.
+2022.11.18 18:24:09 INFO  Attempting to connect to the build server...
+2022.11.18 18:24:09 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:24:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:24:09 INFO  Attempting to connect to the build server...
+2022.11.18 18:24:09 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:24:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:24:09 INFO  time: Connected to build server in 84ms
+2022.11.18 18:24:09 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:24:10 INFO  time: indexed workspace in 0.79s
+2022.11.18 18:24:10 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:24:10 INFO  time: compiled project_tasks-test in 0.78s
+2022.11.18 18:25:06 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:25:06 INFO  time: compiled project_tasks-test in 0.3s
+2022.11.18 18:25:08 INFO  running 'C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vemun\AppData\Local\Temp\metals9174332840706182186\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.18 18:25:10 INFO  [info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+2022.11.18 18:25:11 INFO  [info] loading settings for project project_tasks-build-build from metals.sbt ...
+2022.11.18 18:25:11 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\project
+2022.11.18 18:25:13 INFO  [info] loading settings for project project_tasks-build from metals.sbt ...
+2022.11.18 18:25:13 INFO  [info] loading project definition from C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project
+2022.11.18 18:25:16 INFO  [success] Generated .bloop\project_tasks-build.json
+2022.11.18 18:25:16 INFO  [success] Total time: 3 s, completed Nov 18, 2022 6:25:17 PM
+2022.11.18 18:25:16 INFO  [info] loading settings for project project_tasks from build.sbt ...
+2022.11.18 18:25:16 INFO  [info] set current project to project_tasks (in build file:/C:/Users/vemun/TDT4165-Scala-Project/project_tasks/)
+2022.11.18 18:25:17 INFO  [success] Generated .bloop\project_tasks-test.json
+2022.11.18 18:25:17 INFO  [success] Generated .bloop\project_tasks.json
+2022.11.18 18:25:17 INFO  [success] Total time: 0 s, completed Nov 18, 2022 6:25:17 PM
+2022.11.18 18:25:18 INFO  time: ran 'sbt bloopInstall' in 9.2s
+2022.11.18 18:25:18 INFO  Disconnecting from Bloop session...
+2022.11.18 18:25:18 INFO  Shut down connection with build server.
+2022.11.18 18:25:18 INFO  Shut down connection with build server.
+2022.11.18 18:25:18 INFO  Attempting to connect to the build server...
+2022.11.18 18:25:18 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:25:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:25:18 INFO  Attempting to connect to the build server...
+2022.11.18 18:25:18 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 18:25:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 18:25:18 INFO  time: Connected to build server in 0.12s
+2022.11.18 18:25:18 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 18:25:19 INFO  time: indexed workspace in 0.81s
+2022.11.18 18:25:19 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:25:19 INFO  time: compiled project_tasks-test in 0.92s
+2022.11.18 18:25:21 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 18:25:21 INFO  time: compiled project_tasks-test in 0.31s
+2022.11.18 19:10:57 INFO  Disconnecting from Bloop session...
+2022.11.18 19:10:57 INFO  Shut down connection with build server.
+2022.11.18 19:10:57 INFO  Shut down connection with build server.
+2022.11.18 19:10:57 INFO  Attempting to connect to the build server...
+2022.11.18 19:10:57 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:10:58 INFO  Attempting to connect to the build server...
+2022.11.18 19:10:58 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:10:58 INFO  Attempting to connect to the build server...
+2022.11.18 19:10:58 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  Attempting to connect to the build server...
+2022.11.18 19:11:04 INFO  Attempting to connect to the build server...
+2022.11.18 19:11:04 INFO  Attempting to connect to the build server...
+2022.11.18 19:11:04 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:11:04 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:11:04 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:11:04 INFO  time: Connected to build server in 6.28s
+2022.11.18 19:11:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 19:11:04 INFO  time: Connected to build server in 6.99s
+2022.11.18 19:11:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 19:11:04 INFO  time: Connected to build server in 6.42s
+2022.11.18 19:11:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 19:11:04 INFO  time: Imported build in 0.26s
+2022.11.18 19:11:04 INFO  time: Imported build in 0.27s
+2022.11.18 19:11:04 INFO  time: Imported build in 0.28s
+2022.11.18 19:11:06 INFO  time: indexed workspace in 1.44s
+2022.11.18 19:11:07 INFO  time: indexed workspace in 2s
+2022.11.18 19:11:07 INFO  time: indexed workspace in 2s
+2022.11.18 19:11:07 INFO  Deduplicating compilation of project_tasks from bsp client 'Metals 0.11.9' (since 3.229s)
+2022.11.18 19:11:07 INFO  Deduplicating compilation of project_tasks-test from bsp client 'Metals 0.11.9' (since 3.663s)
+2022.11.18 19:11:09 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:11:09 INFO  compiling project_tasks-test (1 scala source)
+error: C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\.tmp\.metals\.tmp\Main3131751979738311280.scala is not a file
+error: C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\.tmp\.metals\.tmp\Main-292278242706965636.scala is not a file
+2022.11.18 19:11:11 INFO  time: compiled project_tasks-test in 2.56s
+2022.11.18 19:11:13 INFO  Deduplicating compilation of project_tasks from bsp client 'Metals 0.11.9' (since 9.384s)
+2022.11.18 19:11:13 INFO  Deduplicating compilation of project_tasks-test from bsp client 'Metals 0.11.9' (since 9.422s)
+2022.11.18 19:11:13 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:11:13 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:11:13 INFO  time: compiled project_tasks-test in 0.73s
+2022.11.18 19:19:07 INFO  compiling project_tasks (1 scala source)
+2022.11.18 19:19:09 INFO  time: compiled project_tasks in 2.2s
+2022.11.18 19:19:11 WARN  Could not load snapshot text for C:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Main.scala
+2022.11.18 19:19:12 WARN  Could not load snapshot text for C:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Main.scala
+2022.11.18 19:19:13 INFO  compiling project_tasks (1 scala source)
+2022.11.18 19:19:14 WARN  Could not load snapshot text for C:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Main.scala
+2022.11.18 19:19:14 WARN  Could not load snapshot text for C:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Main.scala
+2022.11.18 19:19:14 INFO  time: compiled project_tasks in 1.05s
+2022.11.18 19:19:24 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:19:24 INFO  time: compiled project_tasks-test in 0.73s
+Nov 18, 2022 7:21:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 498
+2022.11.18 19:21:48 INFO  compiling project_tasks (1 scala source)
+2022.11.18 19:21:49 INFO  time: compiled project_tasks in 1.08s
+2022.11.18 19:22:08 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:22:08 INFO  time: compiled project_tasks-test in 0.95s
+2022.11.18 19:22:20 INFO  compiling project_tasks (1 scala source)
+2022.11.18 19:22:20 INFO  time: compiled project_tasks in 0.87s
+2022.11.18 19:22:28 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:22:28 INFO  time: compiled project_tasks-test in 0.82s
+2022.11.18 19:22:42 INFO  Disconnecting from Bloop session...
+2022.11.18 19:22:42 INFO  Shut down connection with build server.
+2022.11.18 19:22:42 INFO  Shut down connection with build server.
+2022.11.18 19:22:42 INFO  Attempting to connect to the build server...
+2022.11.18 19:22:42 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:22:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:22:47 INFO  Attempting to connect to the build server...
+2022.11.18 19:22:47 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 19:22:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 19:22:47 INFO  time: Connected to build server in 5.56s
+2022.11.18 19:22:47 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 19:22:47 INFO  time: Imported build in 0.17s
+2022.11.18 19:22:49 INFO  time: indexed workspace in 0.86s
+2022.11.18 19:23:01 INFO  Deduplicating compilation of project_tasks from bsp client 'Metals 0.11.9' (since 13.167s)
+2022.11.18 19:23:01 INFO  Deduplicating compilation of project_tasks-test from bsp client 'Metals 0.11.9' (since 13.567s)
+2022.11.18 19:23:01 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:23:01 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:23:05 INFO  time: compiled project_tasks-test in 3.29s
+2022.11.18 19:23:07 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 19:23:07 INFO  time: compiled project_tasks-test in 0.96s
+2022.11.18 21:22:42 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 21:22:43 INFO  time: compiled project_tasks-test in 1.29s
+2022.11.18 21:22:50 INFO  Disconnecting from Bloop session...
+2022.11.18 21:22:50 INFO  Shut down connection with build server.
+2022.11.18 21:22:50 INFO  Shut down connection with build server.
+2022.11.18 21:22:50 INFO  Attempting to connect to the build server...
+2022.11.18 21:22:50 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 21:22:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 21:22:50 INFO  Attempting to connect to the build server...
+2022.11.18 21:22:50 INFO  Bloop uses C:\Users\vemun\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\vemun\.bloop\bloop.json
+2022.11.18 21:22:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\project\.metals\bsp.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.18 21:22:50 INFO  time: Connected to build server in 0.18s
+2022.11.18 21:22:50 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.18 21:22:50 INFO  time: Imported build in 0.11s
+2022.11.18 21:22:52 INFO  time: indexed workspace in 2.16s
+2022.11.18 21:22:52 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 21:22:55 INFO  time: compiled project_tasks-test in 3s
+2022.11.18 21:23:13 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 21:23:13 INFO  time: compiled project_tasks-test in 0.64s
+2022.11.18 21:47:59 INFO  compiling project_tasks-test (1 scala source)
+2022.11.18 21:47:59 INFO  time: compiled project_tasks-test in 0.96s
+Nov 18, 2022 11:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 676
+Nov 19, 2022 12:11:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 883
+2022.11.19 00:12:56 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:13:00 INFO  time: compiled project_tasks in 4.34s
+Nov 19, 2022 12:14:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:231)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$12(PcDocumentHighlightProvider.scala:244)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:244)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:311)
+
+2022.11.19 00:15:01 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:15:01 INFO  time: compiled project_tasks in 0.16s
+Nov 19, 2022 12:15:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:231)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:311)
+
+Nov 19, 2022 12:15:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:231)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:311)
+
+Nov 19, 2022 12:15:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:231)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$20(PcDocumentHighlightProvider.scala:308)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:308)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.$anonfun$highlights$15(PcDocumentHighlightProvider.scala:274)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.traverse$1(PcDocumentHighlightProvider.scala:274)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:311)
+
+Nov 19, 2022 12:16:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:16:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:16:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2022.11.19 00:16:08 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:16:08 INFO  time: compiled project_tasks in 0.24s
+2022.11.19 00:16:26 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:16:27 INFO  time: compiled project_tasks in 1.47s
+2022.11.19 00:16:31 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:16:31 INFO  time: compiled project_tasks in 0.29s
+2022.11.19 00:16:49 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:16:50 INFO  time: compiled project_tasks in 1.41s
+Nov 19, 2022 12:17:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:17:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:18:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1915
+2022.11.19 00:18:32 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:18:32 INFO  time: compiled project_tasks in 0.36s
+2022.11.19 00:18:41 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:18:41 INFO  time: compiled project_tasks in 0.19s
+Nov 19, 2022 12:18:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:19:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2022.11.19 00:19:17 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:19:17 INFO  time: compiled project_tasks in 0.18s
+Nov 19, 2022 12:19:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2022.11.19 00:19:37 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:19:37 INFO  time: compiled project_tasks in 0.19s
+Nov 19, 2022 12:19:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:19:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:19:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:20:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2022.11.19 00:20:31 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:20:31 INFO  time: compiled project_tasks in 0.2s
+2022.11.19 00:20:40 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:20:40 INFO  time: compiled project_tasks in 0.23s
+2022.11.19 00:20:42 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:20:42 INFO  time: compiled project_tasks in 0.21s
+Nov 19, 2022 12:20:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+Nov 19, 2022 12:20:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2022.11.19 00:20:51 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:20:51 INFO  time: compiled project_tasks in 0.2s
+2022.11.19 00:21:26 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:21:26 INFO  time: compiled project_tasks in 0.2s
+2022.11.19 00:21:34 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:21:34 INFO  time: compiled project_tasks in 0.18s
+2022.11.19 00:21:52 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:21:52 INFO  time: compiled project_tasks in 0.28s
+2022.11.19 00:21:54 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:21:54 INFO  time: compiled project_tasks in 0.16s
+2022.11.19 00:22:49 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:22:50 INFO  time: compiled project_tasks in 1.13s
+2022.11.19 00:23:50 INFO  compiling project_tasks-test (1 scala source)
+2022.11.19 00:23:50 INFO  time: compiled project_tasks-test in 0.48s
+2022.11.19 00:25:19 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:25:19 INFO  time: compiled project_tasks in 0.19s
+2022.11.19 00:25:27 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:25:27 INFO  time: compiled project_tasks in 0.18s
+2022.11.19 00:25:30 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:25:31 INFO  time: compiled project_tasks in 1.09s
+2022.11.19 00:25:33 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:25:33 WARN  Could not load snapshot text for C:\Users\vemun\TDT4165-Scala-Project\project_tasks\src\main\scala\Transaction.scala
+2022.11.19 00:25:35 INFO  time: compiled project_tasks in 1.74s
+2022.11.19 00:27:50 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:27:50 INFO  time: compiled project_tasks in 0.14s
+2022.11.19 00:28:06 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:28:06 INFO  time: compiled project_tasks in 0.13s
+Nov 19, 2022 12:29:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3135
+2022.11.19 00:29:40 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:29:40 INFO  time: compiled project_tasks in 0.14s
+2022.11.19 00:29:45 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:29:45 INFO  time: compiled project_tasks in 0.71s
+Nov 19, 2022 12:32:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3244
+2022.11.19 00:35:03 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:35:03 INFO  time: compiled project_tasks in 0.15s
+2022.11.19 00:35:24 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:35:24 INFO  time: compiled project_tasks in 0.12s
+Nov 19, 2022 12:35:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3632
+Nov 19, 2022 12:35:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3640
+2022.11.19 00:39:06 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:39:06 INFO  time: compiled project_tasks in 0.87s
+2022.11.19 00:39:06 INFO  compiling project_tasks (2 scala sources)
+2022.11.19 00:39:07 INFO  time: compiled project_tasks in 0.51s
+2022.11.19 00:39:13 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:39:13 INFO  time: compiled project_tasks in 0.86s
+Nov 19, 2022 12:40:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4367
+2022.11.19 00:41:03 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:41:03 INFO  time: compiled project_tasks in 0.83s
+2022.11.19 00:41:41 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:41:42 INFO  time: compiled project_tasks in 1.03s
+2022.11.19 00:41:55 INFO  compiling project_tasks (1 scala source)
+2022.11.19 00:41:55 INFO  time: compiled project_tasks in 0.83s
+2022.11.19 00:41:55 INFO  compiling project_tasks (2 scala sources)
+2022.11.19 00:41:57 INFO  time: compiled project_tasks in 0.49s
+2022.11.19 00:42:36 INFO  compiling project_tasks-test (1 scala source)
+2022.11.19 00:42:38 INFO  time: compiled project_tasks-test in 1.95s
+2022.11.19 00:42:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\dap-server.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.11.19 00:42:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vemun\TDT4165-Scala-Project\project_tasks\.metals\dap-client.trace.json or C:\Users\vemun\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.11.19 00:42:59 INFO  Starting debug proxy for [AccountTests()]
+2022.11.19 00:43:01 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55339 .
+2022.11.19 00:43:01 INFO  Attaching to debuggee VM succeeded.
+2022.11.19 00:43:05 INFO  Canceling debug proxy for [AccountTests()]
+2022.11.19 00:43:05 INFO  Closing debug server tcp://0.0.0.0:55335
