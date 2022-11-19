@@ -1,1 +1,9 @@
 **/.DS_Store
+
+.idea
+.metals
+.vscode
+.bloop
+.bsp
+target/
+
