@@ -64,41 +64,9 @@ class Transaction(val transactionsQueue: TransactionQueue,
       def doTransaction() = {
           // TODO - project task 3
           // Extend this method to satisfy requirements.
-
-          // spesify account? or if withdraw/ deposit?  
-          if (attempt < allowedAttemps) {
-            status synchronized{
-                from.withdraw(amount) match {
-                    case Left(s) => 
-                        status = TransactionStatus.SUCCESS
-                    case Right(f) => 
-                        attempt synchronized {
-                            attempt += 1
-                        }
-                }
-                
-            }
-            status synchronized{
-                to.deposit(amount) match {
-                    case Left(s) => 
-                        status = TransactionStatus.SUCCESS
-                    case Right(f) => 
-                        attempt synchronized {
-                            attempt += 1
-                        }
-                }
-            }
-          } else {
-            status = TransactionStatus.FAILED
-          }
-
-            //   from withdraw amount
-            //   to deposit amount
-            // increase amount of attempts for each call
-            //   status = TransactionStatus.FAILED
-            // Pattern match result from withdraw/ deposit
-            // Must be synchronized (status, attempt)
-        }
+          from withdraw amount
+          to deposit amount
+      }
 
       // TODO - project task 3
       // make the code below thread safe
@@ -107,7 +75,6 @@ class Transaction(val transactionsQueue: TransactionQueue,
           Thread.sleep(50) // you might want this to make more room for
                            // new transactions to be added to the queue
       }
-      // addTransactionToQueue
 
 
     }
