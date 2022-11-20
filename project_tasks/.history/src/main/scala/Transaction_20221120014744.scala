@@ -64,24 +64,9 @@ class Transaction(val transactionsQueue: TransactionQueue,
       def doTransaction() = {
           // TODO - project task 3
           // Extend this method to satisfy requirements.
-
-          // Check if exceeded allowed attempts
-          if (attempt < allowedAttemps) {
-                from.withdraw(amount) match { // Pattern matches the results from withdraw
-                    case Left(s)  => // Proceeds to deposit if withdrawal was succesful
-                        to.deposit(amount) match { // Pattern matches the results from deposit
-                            case Left(s) => // Change the status as the transaction was a success
-                                status = TransactionStatus.SUCCESS
-                            case Right(f) => // Increases the transaction attempts if deposit failed
-                                attempt += 1
-                        }
-                    case Right(f) => // Increases the transaction attempts if withdraw failed
-                        attempt += 1
-                }
-          } else { // Exceeded the allowed attempts, thus resulting in a failed transaction
-            status = TransactionStatus.FAILED
-          }
-        }
+          from withdraw amount
+          to deposit amount
+      }
 
       // TODO - project task 3
       // make the code below thread safe
