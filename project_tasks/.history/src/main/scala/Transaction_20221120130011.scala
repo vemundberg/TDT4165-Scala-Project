@@ -81,6 +81,13 @@ class Transaction(val transactionsQueue: TransactionQueue,
           } else { // Exceeded the allowed attempts, thus resulting in a failed transaction
             status = TransactionStatus.FAILED
           }
+
+            //   from withdraw amount
+            //   to deposit amount
+            // increase amount of attempts for each call
+            //   status = TransactionStatus.FAILED
+            // Pattern match result from withdraw/ deposit
+            // Must be synchronized (status, attempt)
         }
 
       // TODO - project task 3
@@ -90,6 +97,7 @@ class Transaction(val transactionsQueue: TransactionQueue,
           Thread.sleep(50) // you might want this to make more room for
                            // new transactions to be added to the queue
       }
+      // addTransactionToQueue
 
 
     }
