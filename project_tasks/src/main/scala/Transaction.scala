@@ -67,27 +67,21 @@ class Transaction(val transactionsQueue: TransactionQueue,
 
           // spesify account? or if withdraw/ deposit?  
           if (attempt < allowedAttemps) {
-            status synchronized{
                 from.withdraw(amount) match {
-                    case Left(s) => 
-                        status = TransactionStatus.SUCCESS
+                    case Left(s)  => 
+                        to.deposit(amount) match {
+                            case Left(s) => 
+                                status = TransactionStatus.SUCCESS
+                            case Right(f) =>
+                                attempt += 1
+                }
                     case Right(f) => 
-                        attempt synchronized {
-                            attempt += 1
-                        }
+                        attempt += 1
+
                 }
                 
-            }
-            status synchronized{
-                to.deposit(amount) match {
-                    case Left(s) => 
-                        status = TransactionStatus.SUCCESS
-                    case Right(f) => 
-                        attempt synchronized {
-                            attempt += 1
-                        }
-                }
-            }
+                
+
           } else {
             status = TransactionStatus.FAILED
           }
